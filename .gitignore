@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/merkle-poc/src/Merkle.Core/obj/Debug/net10.0
+/merkle-poc/src/Merkle.Core/obj
+/merkle-poc/src/Merkle.Node/obj/Debug/net10.0
+/merkle-poc/src/Merkle.Node/obj
+/merkle-poc/src/Merkle.Storage/obj/Debug/net10.0
+/merkle-poc/src/Merkle.Storage/obj
+/merkle-poc/.vs/merkle-poc.slnx
