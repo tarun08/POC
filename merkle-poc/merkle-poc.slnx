@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Merkle.Core/Merkle.Core.csproj" />
+    <Project Path="src/Merkle.Node/Merkle.Node.csproj" />
+    <Project Path="src/Merkle.Storage/Merkle.Storage.csproj" />
+  </Folder>
+</Solution>
