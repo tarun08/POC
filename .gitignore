@@ -9,3 +9,12 @@
 /merkle-poc/src/Merkle.Storage/obj/Debug/net10.0
 /merkle-poc/src/Merkle.Storage/obj
 /merkle-poc/.vs/merkle-poc.slnx
+/AntiEntropySystem/.vs
+/AntiEntropySystem/Client/obj
+/AntiEntropySystem/Contracts/obj
+/AntiEntropySystem/Node/obj
+/AntiEntropySystem/Shared/obj
+/AntiEntropySystem/Client/bin/Debug/net10.0
+/AntiEntropySystem/Node/bin/Debug/net10.0
+/AntiEntropySystem/Contracts/bin/Debug/net10.0
+/AntiEntropySystem/Shared/bin/Debug/net10.0

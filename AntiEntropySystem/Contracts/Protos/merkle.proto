@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option csharp_namespace = "Contracts";
+
+service AntiEntropy {
+  rpc GetMerkleRoot (Empty) returns (MerkleNodeDto);
+  rpc CompareSubTree (CompareRequest) returns (CompareResponse);
+  rpc GetDataRange (DataRangeRequest) returns (DataRangeResponse);
+}
+
+message Empty {}
+
+message MerkleNodeDto {
+  bytes hash = 1;
+  string startKey = 2;
+  string endKey = 3;
+}
+
+message CompareRequest {
+  bytes hash = 1;
+  string startKey = 2;
+  string endKey = 3;
+}
+
+message CompareResponse {
+  bool isMatch = 1;
+  repeated RangeDiff diffs = 2;
+}
+
+message RangeDiff {
+  string startKey = 1;
+  string endKey = 2;
+}
+
+message DataRangeRequest {
+  string startKey = 1;
+  string endKey = 2;
+}
+
+message DataItem {
+  string key = 1;
+  string value = 2;
+  int64 timestamp = 3;
+}
+
+message DataRangeResponse {
+  repeated DataItem items = 1;
+}

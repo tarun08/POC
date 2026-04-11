@@ -1,6 +1,0 @@
-@Merkle.Node_HostAddress = http://localhost:5267
-
-GET {{Merkle.Node_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
