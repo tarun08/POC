@@ -1,0 +1,18 @@
+@Sekeleton2_HostAddress = http://localhost:5166
+
+### Get all users
+GET {{Sekeleton2_HostAddress}}/api/users
+Accept: application/json
+
+###
+
+### Create user
+POST {{Sekeleton2_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+###

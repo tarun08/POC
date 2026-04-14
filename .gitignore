@@ -27,3 +27,6 @@
 /RabbitMQWithMassTransit/MassTransitPOC/.vs
 /RabbitMQWithMassTransit/MassTransitPOC/bin/Debug/net8.0
 /RabbitMQWithMassTransit/MassTransitPOC/obj
+/APISkeleton/Skeleton/.vs/Skeleton.slnx
+/APISkeleton/Skeleton/bin/Debug/net10.0
+/APISkeleton/Skeleton/obj
